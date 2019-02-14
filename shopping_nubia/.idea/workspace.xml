@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="def19de4-bf55-4104-a1cf-e85d44f011f2" name="Default Changelist" comment="creat project">
+      <change afterPath="I:/QT_Demo/Hello/Hello.pro" afterDir="false" />
+      <change afterPath="I:/QT_Demo/Hello/main.cpp" afterDir="false" />
+      <change afterPath="I:/QT_Demo/Hello/mainwindow.cpp" afterDir="false" />
+      <change afterPath="I:/QT_Demo/Hello/mainwindow.h" afterDir="false" />
+      <change afterPath="I:/QT_Demo/Hello/mainwindow.ui" afterDir="false" />
+      <change afterPath="I:/c_demo/FinalExam/demo1/main.c" afterDir="false" />
+      <change afterPath="I:/c_demo/FinalExam/table/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/accessories1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/accessories2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/accessories3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/accessories4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/con-phone1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/con-phone2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/con-phone3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/con-phone4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/con-phone5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav-phone1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav-phone2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav-phone3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav-phone4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav-phone5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav-phone6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav-phone7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nav-phone8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nb-pro-ft-logo-x2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nb-pro-video-ico-s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nubia-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nubia-syb-all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/video1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/video2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/video3.jpg" afterDir="false" />
+      <change beforePath="I:/c_demo/test/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Bsp/switch_mode/switch_mode.c" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Bsp/switch_mode/switch_mode.c" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/bsp_exti.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/bsp_exti.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/bsp_led.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/bsp_led.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/bsp_moto.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/bsp_moto.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/bsp_usart.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/bsp_usart.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/drv_delay.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/drv_delay.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/drv_si4438.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/drv_si4438.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/drv_spi.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/drv_spi.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/main.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/main.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/misc.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/misc.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_adc.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_adc.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_bkp.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_bkp.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_can.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_can.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_cec.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_cec.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_crc.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_crc.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_dac.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_dac.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_dbgmcu.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_dbgmcu.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_dma.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_dma.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_exti.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_exti.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_flash.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_flash.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_fsmc.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_fsmc.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_gpio.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_gpio.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_i2c.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_i2c.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_it.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_it.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_iwdg.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_iwdg.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_pwr.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_pwr.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_rcc.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_rcc.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_rtc.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_rtc.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_sdio.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_sdio.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_spi.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_spi.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_tim.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_tim.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_usart.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_usart.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_wwdg.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/stm32f10x_wwdg.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/switch_mode.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/switch_mode.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Output/system_stm32f10x.crf" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Output/system_stm32f10x.crf" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Project/SI4438__Project.uvguix.Administrator" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Project/SI4438__Project.uvguix.Administrator" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/Project/SI4438__Project.uvoptx" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/Project/SI4438__Project.uvoptx" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/SI4438_SendPrj/User/main.c" beforeDir="false" afterPath="I:/stm32_Demo/SI4438_SendPrj/User/main.c" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/Send.~(11).PcbDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/Send.~(12).PcbDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/Send.~(13).PcbDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/Send.~(14).PcbDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/Send.~(2).PcbLib.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/Send.~(3).PrjPCB.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/Send.~(4).PrjPCB.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/Send.~(5).PrjPCB.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/Send_change.~(2).PcbDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/Send_change.~(3).PcbDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/Send_change.~(4).PcbDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/发送端原理图.~(10).SchDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/发送端原理图.~(5).SchDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/发送端原理图.~(6).SchDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/发送端原理图.~(7).SchDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/发送端原理图.~(8).SchDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/History/发送端原理图.~(9).SchDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/Send.PcbDoc" beforeDir="false" afterPath="I:/stm32_Demo/发送板/Send.PcbDoc" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/Send.PcbLib" beforeDir="false" afterPath="I:/stm32_Demo/发送板/Send.PcbLib" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/Send.PrjPCB" beforeDir="false" afterPath="I:/stm32_Demo/发送板/Send.PrjPCB" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/Send_change.PcbDoc" beforeDir="false" afterPath="I:/stm32_Demo/发送板/Send_change.PcbDoc" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/__Previews/发送端原理图.SchDocPreview" beforeDir="false" afterPath="I:/stm32_Demo/发送板/__Previews/发送端原理图.SchDocPreview" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/发送端原理图.SchDoc" beforeDir="false" afterPath="I:/stm32_Demo/发送板/发送端原理图.SchDoc" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/发送板/发送端原理图.pdf" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/History/receive.~(10).PrjPCB.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/History/接收端.~(13).PcbDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/History/接收端.~(14).PcbDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/History/接收端.~(15).PcbDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/History/接收端原理图.~(10).SchDoc.Zip" beforeDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/Project Outputs for receive/Design Rule Check - 接收端.drc" beforeDir="false" afterPath="I:/stm32_Demo/接收板/Project Outputs for receive/Design Rule Check - 接收端.drc" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/Project Outputs for receive/Design Rule Check - 接收端.html" beforeDir="false" afterPath="I:/stm32_Demo/接收板/Project Outputs for receive/Design Rule Check - 接收端.html" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/Project Outputs for receive/Status Report.Txt" beforeDir="false" afterPath="I:/stm32_Demo/接收板/Project Outputs for receive/Status Report.Txt" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/Project Outputs for receive/接收端.DRR" beforeDir="false" afterPath="I:/stm32_Demo/接收板/Project Outputs for receive/接收端.DRR" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/Project Outputs for receive/接收端.LDP" beforeDir="false" afterPath="I:/stm32_Demo/接收板/Project Outputs for receive/接收端.LDP" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/__Previews/接收端原理图.SchDocPreview" beforeDir="false" afterPath="I:/stm32_Demo/接收板/__Previews/接收端原理图.SchDocPreview" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/receive.PrjPCB" beforeDir="false" afterPath="I:/stm32_Demo/接收板/receive.PrjPCB" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/接收端.PcbDoc" beforeDir="false" afterPath="I:/stm32_Demo/接收板/接收端.PcbDoc" afterDir="false" />
+      <change beforePath="I:/stm32_Demo/接收板/接收端原理图.SchDoc" beforeDir="false" afterPath="I:/stm32_Demo/接收板/接收端原理图.SchDoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#3209#3213#0" expanded="true" />
+                <element signature="n#p#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#5608#5612#0" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1288">
+              <caret line="353" column="21" selection-start-line="353" selection-start-column="21" selection-end-line="353" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>display</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="I:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/base.css" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="896" />
+    <option name="width" value="1255" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shopping_nubia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_nubia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping_nubia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_nubia" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping_nubia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping_nubia" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\web_study\html_css\shopping_nubia\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="def19de4-bf55-4104-a1cf-e85d44f011f2" name="Default Changelist" comment="" />
+      <created>1549359954955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549359954955</updated>
+      <workItem from="1549359957773" duration="6730000" />
+      <workItem from="1549523962203" duration="12114000" />
+      <workItem from="1549782507298" duration="8529000" />
+    </task>
+    <task id="LOCAL-00001" summary="creat project">
+      <created>1549360917406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549360917407</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27373000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="896" y="0" width="1255" height="1087" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18323746" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.10388248" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32977912" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.24143183" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creat project" />
+    <option name="LAST_COMMIT_MESSAGE" value="creat project" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://I:/stm32_Demo/接收板/Project Outputs for receive/Design Rule Check - 接收端.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/nb-pro-video-ico-s.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/nav-phone6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/con-phone1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/nb-pro-ft-logo-x2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/accessories1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="353" column="21" selection-start-line="353" selection-start-column="21" selection-end-line="353" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#3209#3213#0" expanded="true" />
+            <element signature="n#p#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#5608#5612#0" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
