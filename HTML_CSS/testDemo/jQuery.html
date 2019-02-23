@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="javascript/jquery-1.12.4.js"></script>
+</head>
+<body>
+<div>
+    <div id="test"></div>
+    <button id="btn">来点我啊</button>
+</div>
+    <script>
+        $(function () {
+            $("#btn").click(function () {
+                let div = $("#test");
+                $("#btn").text('点你大爷');
+                div.css("backgroundColor","red");
+                //div.class="hahah";
+                let aTag = $("<a href='#'>我是你爸爸</a>")
+                div.append(aTag);
+            });
+        });
+    </script>
+</body>
+</html>

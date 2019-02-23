@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>随机方块</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 800px;
+            background-color: #000000;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+    <script>
+        //创建工具
+        let Tools = {
+            getRandom:function (min,max) {
+                min = Math.ceil(min);
+                max = Math.floor(max);
+                return Math.floor(Math.random() * (max - min)) + min;
+            }
+        };
+        // console.log(tools.getRandom(0, 10));
+        function Box(parent,options) {
+            options = options || {};
+            this.backgroundColor = options.backgroundColor||'red';
+            this.width = options.width || 10;
+            this.height = options.height || 10;
+            this.localX = options.localX || 5;
+            this.localY = options.localY || 5;
+            this.div = document.createElement('div');
+            this.parent = parent;
+            parent.appendChild(this.div);
+            this.init();
+        }
+
+        Box.prototype.init = function () {
+            let div = this.div;
+            div.style.backgroundColor = this.backgroundColor;
+            div.style.width = this.width + 'px';
+            div.style.height = this.height + 'px';
+            div.style.left = this.localX + 'px';
+            div.style.top = this.localY + 'px';
+            div.style.position = 'absolute';
+        };
+        Box.prototype.random = function () {
+            let x = Tools.getRandom(0,this.parent.offsetWidth / this.width - 1) * this.width;
+            let y = Tools.getRandom(0,this.parent.offsetHeight / this.height - 1) * this.height;
+
+            this.div.style.left = x + 'px';
+            this.div.style.top = y + 'px';
+        };
+        let box = new Box(document.getElementsByTagName('div')[0]);
+        box.random();
+    </script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>倒计时</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .time {
+            width: 800px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .font{
+            font-size: 45px;
+        }
+        .back {
+            display: inline-block;
+            width:66px;
+            /*height: 66px;*/
+            font-size: 50px;
+            font-weight: bold;
+            color: aliceblue;
+            background-color: deeppink;
+            border-radius: 20%;
+        }
+    .box{
+        width: 300px;
+        /*height: 363px;*/
+        margin: 0 auto;
+        position: relative;
+    }
+        .small{
+            position:relative;
+        }
+        .small img{
+
+            width: 300px;
+            position:relative;
+        }
+        .mask{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            cursor: move;
+            background-color: rgba(0,0,0,0.5);
+            display: none;
+        }
+    .big {
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        position: absolute;
+        left: 310px;
+        top: 0;
+        display: none;
+    }
+        .big img{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="time">
+        <h1 class="time-item">距离老婆生日</h1>
+            <p>
+                <span class="font"><span class="back" id="day">00</span>天</span>
+                <span class="font"><span class="back" id="hour">00</span>时</span>
+                <span class="font"><span class="back" id="minute">00</span>分</span>
+                <span class="font"><span class="back" id="second">00</span>秒</span>
+            </p>
+    </div>
+
+    <div class="box">
+        <div class="small">
+            <img src="./image/smallPhoto.jpg">
+            <div class="mask"></div>
+        </div>
+        <div class="big">
+            <img src="./image/bigPhoto.jpg">
+        </div>
+    </div>
+
+
+    <script>
+        let endDate = new Date('2019-02-26 00:00:00');
+
+        window.onload = timeCount();
+        setInterval(timeCount, 1000);
+
+
+        function getInterval(start, end) {
+            let interval = end - start;
+            let day,
+                hour,
+                minute,
+                second;
+            interval /= 1000;
+            day = Math.round(interval/60/60/24);
+            hour = Math.round(interval/60/60%24);
+            minute = Math.round(interval/60%60);
+            second = Math.round(interval%60);
+
+            return {
+                day : day,
+                hour : hour,
+                minute : minute,
+                second : second
+            }
+        }
+
+        function timeCount() {
+            let startDate = new Date();
+            // console.log(endDate);
+            let timeOut = getInterval(startDate,endDate);
+            // console.log(timeOut);
+            document.getElementById('day').innerText = timeOut.day;
+            document.getElementById('hour').innerText = timeOut.hour;
+            document.getElementById('minute').innerText = timeOut.minute;
+            document.getElementById('second').innerText = timeOut.second;
+        }
+
+    let divNum = document.getElementsByTagName('div');
+    let box,big,small,mask;
+        for(let div of divNum){
+            console.log(div.className);
+            switch (div.className) {
+                case 'box':
+                    box = div;
+                    break;
+                case 'small':
+                    small = div;
+                    break;
+                case 'big':
+                    big = div;
+                    break;
+                case 'mask':
+                    mask = div;
+                    break;
+            }
+        }
+        let bigImg = big.getElementsByTagName('img')[0];
+        small.addEventListener('mousemove',function () {
+            // 显示 mask和bigBox
+            mask.style.display = 'block';
+            big.style.display = 'block'
+        },true);
+
+        small.addEventListener('mouseout',function () {
+            mask.style.display = 'none';
+            big.style.display = 'none';
+        },true);
+
+        small.onmousemove=function (e) {
+            e = e|| window.event;
+            let maskX = e.pageX - box.offsetLeft;
+            let maskY = e.pageY - box.offsetTop;
+
+            maskX = maskX - mask.offsetWidth/2;
+            maskY = maskY - mask.offsetHeight/2;
+
+            maskX = maskX<0? 0 : maskX;
+            maskY = maskY<0? 0 : maskY;
+
+            maskX = maskX > box.offsetWidth - mask.offsetWidth ? box.offsetWidth - mask.offsetWidth : maskX;
+            maskY = maskY > box.offsetHeight - mask.offsetHeight ? box.offsetHeight - mask.offsetHeight : maskY;
+
+            mask.style.left = maskX+ 'px';
+            mask.style.top = maskY + 'px';
+
+            //offsetWidth获取元素的宽度
+            //offerHeight获取元素的高度
+
+            let maskMax = small.offsetWidth - mask.offsetWidth;
+
+            let bigImageMax = bigImg.offsetWidth - big.offsetWidth;
+
+            let bigImageX = maskX*(bigImageMax/maskMax);
+            let bigImageY = maskY*(bigImageMax/maskMax);
+
+            bigImg.style.left = -bigImageX +'px';
+            bigImg.style.top = -bigImageY +'px';
+        }
+
+    </script>
+</body>
+</html>

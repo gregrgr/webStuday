@@ -1,0 +1,334 @@
+header{
+    height: 100px;
+    overflow: hidden;
+}
+nav {
+    width: 1366px;
+    height: 42px;
+    margin: 26px auto;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    /* margin-left: 270px; */
+    float: left;
+}
+
+.navbar{
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 50px;
+}
+.navbar li{
+    float: left;
+}
+.navbar li a{
+    display: block;
+    padding: 0 10px;
+    height: 42px;
+    font-size: 18px;
+}
+.navbar li a:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+.search{
+    float: right;
+}
+.search input[type=text]{
+    width: 410px;
+    height: 42px;
+    padding-left: 20px;
+    border: 1px solid #00a4ff;
+    float: left;
+}
+.search input[type=submit]{
+    width: 50px;
+    height: 42px;
+    background: url(../image/fa-search.png) center no-repeat;
+    background-color: #00a4ff;
+    float: left;
+}
+.personal{
+    height: 42px;
+    float: right;
+}
+.personal a{
+    margin-left: 30px;
+}
+.personal img{
+    margin: 0 8px;
+    vertical-align: middle
+}
+.personal span{
+    line-height: 42px;
+}
+.neck{
+    height: 420px;
+    background-color: #1c036c ;
+    /* position: relative; */
+}
+
+.neck .banner{
+    height: 420px;
+    position: relative;
+    /* left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;  */
+    background:url(../image/banner2.png) center no-repeat;
+    /* z-index: 999; */
+}
+
+.neck .banner .left-nav{
+    height: 100%;
+    width: 190px;
+    float: left;
+    background-color: rgba(0,0,0,.5);
+}
+
+.neck .banner .left-nav li a{
+    line-height: 45px;
+    display: block;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.neck .banner .left-nav li span{
+    float: right;
+}
+
+.neck .banner .left-nav li a:hover{
+    color: #00a4ff;
+}
+
+.neck .banner .right-nav{
+    width: 228px;
+    height: 300px;
+    float: right;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.neck .banner .right-nav .timeable dt{
+    height: 50px;
+    line-height: 50px;
+    background-color: #9bceea;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;  
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.neck .banner .right-nav .timeable dd{
+    height: 60px;
+    width: 193px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    padding-top: 12px;
+    box-sizing: border-box;
+}
+
+.neck .banner .right-nav .timeable dd h4{
+    font-weight: normal;
+    font-size: 16px;
+}
+.neck .banner .right-nav .timeable dd span{
+    padding-left: 5px;
+    font-size: 14px;
+}
+.neck .banner .right-nav .timeable dd p{
+    font-size: 12px;
+}
+.neck .banner .right-nav .timeable dd a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #00a4ff;
+    color: #00a4ff;
+}
+.neck .banner .right-nav .timeable dd:hover{
+    font-weight: bold;
+    color: #00a4ff;
+}
+
+.neck .banner .carousel-button{
+    width: 168px;
+    height: 18px;
+    /* background-color: red; */
+    position: absolute;
+    left:50%;
+    margin-left: -106px;
+    bottom: 34px;
+}
+.neck .banner .carousel-button li{
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin: 0 8px;
+}
+
+.neck .banner .carousel-button li a{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background:rgba(255,255,255,.5);
+}
+.neck .banner .carousel-button li a:hover{
+    /* width: 20px;
+    height: 12px; */
+    /* border-radius: 5px; */
+    transform: scale(1.2);
+    background-color: #fff;
+}
+
+.recommend{
+    height: 60px;
+    margin-top: 8px;
+    background-color: #FFF;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.recommend ul li{
+    width: 120px;
+    height: 18px;
+    float: left;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    margin-top: 20px;
+}
+.recommend ul li:last-child{
+    border: none;
+    float: right;
+}
+.recommend ul li a{
+    line-height: 18px;
+    font-size: 16px;
+    color: #000;
+}
+
+.recommend ul li .last{
+    font-size: 14px;
+    color: #00a4ff;
+}
+.recommend ul li a:hover{
+    font-weight: bold;
+    color: #00a4ff;
+} 
+
+.content-1{
+    height: 616px;
+    margin-top: 16px;
+}
+.content-1 .content-1-title{
+    height: 60px;
+    font-family: MicrosoftYaHei;
+    font-size: 20px;
+    color: #494949;
+    line-height: 60px;
+}
+.content-1 ul{
+    height: 556px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-1 ul li{
+    width: 234px;
+    height: 270px;
+    background-color: #fff;
+    /* overflow: hidden; */
+    text-align: center;
+    position: relative;
+}
+.content-1 ul li:nth-child(5){
+    margin-bottom: 15px;
+}
+.content-1 .mark{
+    position: absolute;
+    top:5px;
+    right: -2px;
+    z-index: 999;
+}
+.content-1 ul li h4{
+    color: #555;
+    font-size: 14px;
+    padding: 24px 20px 0 20px;
+    text-align: left;
+}
+
+.content-1 ul li p{
+    margin: 12px 0 0 20px;
+    text-align: left;
+    font-size: 12px;
+    color: #999;
+}
+.content-1 ul li p span:first-child{
+    color: #ffb798;
+    margin-right: 5px;
+}
+.content-1 ul li p span:last-child{
+    color: #999;
+    margin-left: 5px;
+}
+.footer{
+    margin-top: 100px;
+    height: 276px;
+    background-color: #fff;
+}
+.footer .info{
+    width: 55%;
+    height: 180px;
+    float: left;
+    /* background-color: chartreuse; */
+    padding: 30px 0 0 10px;
+}
+.footer .info p{
+    padding-top: 10px;
+}
+.footer .info a{
+    width: 120px;
+    height: 36px;
+    display: block;
+    border: 1px solid #00a4ff;
+    font-size: 16px;
+    line-height: 36px;
+    color: #00a4ff;
+    text-align: center;
+    margin-top: 36px;;
+}
+.footer .message{
+    width: 45%;
+    height: 180px;
+    float: right;
+    /* background-color: yellow; */
+}
+.footer .message dl{
+    float: right;
+    margin-right: 88px;
+    margin-top: 36px;
+}
+.footer .message dl dt{
+    font-size: 16px;
+    color: #333;
+}
+.footer .message dl dd{
+    font-size: 12px;
+    margin: 5px 0;
+}
+.footer p:last-child{
+    text-align: center;
+    margin-top: 250px;
+}

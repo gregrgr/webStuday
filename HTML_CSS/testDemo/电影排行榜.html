@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>电影排行榜</title>
+    <script src="javascript/jquery-1.12.4.js"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding:0;
+    }
+    .display{
+        display: none;
+    }
+    .displayBlk .display{
+        display: block;
+    }
+    li{
+        list-style: none;
+    }
+    .item{
+        width: 400px;
+        height: 600px;
+        /*background-color: deeppink;*/
+        margin: 50px auto;
+    }
+    h1{
+        height: 70px;
+        font-size: 40px;
+        text-align: center;
+        line-height: 70px;
+        /*background-color: aquamarine;*/
+        border-bottom: 2px dashed #000000;
+    }
+    .column{
+        /*background-color: aquamarine;*/
+        line-height: 40px;
+        border-bottom: 2px dashed #000000;
+        /*position: relative;*/
+    }
+    .column dl{
+        /*position: absolute;*/
+    }
+    .column i{
+        float: right;
+        line-height: 40px;
+        transition: transform .5s;
+    }
+    .column div{
+        overflow: hidden;
+    }
+    .column div dd p{
+        width: 70%;
+        line-height: 20px;
+        float: right;
+    }
+    /*.column i:hover{*/
+        /*transform:rotate(90deg);*/
+    /*}*/
+    .column .serial{
+        margin-right: 20px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        /*background-color: red;*/
+        border-radius: 50%;
+    }
+    .column .l-head{
+        padding:0 10px;
+        font-size: 24px;
+        /*background-color: brown;*/
+    }
+    .column div dd img{
+        padding-top: 30px;
+        float: left;
+        width: 30%;
+    }
+</style>
+<body>
+    <div class="item">
+        <h1>电影排行榜</h1>
+        <ul>
+            <li class="column">
+                <p class="l-head"><span class="serial">1</span>电影名称<i class="fa fa-angle-double-right"></i></p>
+                <div>
+                    <dl class="display">
+                        <dt>流浪地球</dt>
+                        <dd><img src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D500/sign=9997c339923df8dca23d8f91fd1072bf/d043ad4bd11373f06b5aa251a90f4bfbfaed0493.jpg" alt="">
+                            <p>《流浪地球》根据刘慈欣同名小说改编，影片故事设定在2075年，讲述了太阳即将毁灭，已经不适合人类生存，而面对绝境，人类将开启“流浪地球”计划，试图带着地球一起逃离太阳系，寻找人类新家园的故事</p></dd>
+                    </dl>
+                </div>
+            </li>
+            <li class="column">
+                <p class="l-head"><span class="serial">2</span>电影名称<i class="fa fa-angle-double-right"></i></p>
+                <div>
+                    <dl class="display">
+                        <dt>流浪地球</dt>
+                        <dd><img src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D500/sign=9997c339923df8dca23d8f91fd1072bf/d043ad4bd11373f06b5aa251a90f4bfbfaed0493.jpg" alt="">
+                            <p>《流浪地球》根据刘慈欣同名小说改编，影片故事设定在2075年，讲述了太阳即将毁灭，已经不适合人类生存，而面对绝境，人类将开启“流浪地球”计划，试图带着地球一起逃离太阳系，寻找人类新家园的故事</p></dd>
+                    </dl>
+                </div>
+            </li>
+            <li class="column">
+                <p class="l-head"><span class="serial">3</span>电影名称<i class="fa fa-angle-double-right"></i></p>
+                <div>
+                    <dl class="display">
+                        <dt>流浪地球</dt>
+                        <dd><img src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D500/sign=9997c339923df8dca23d8f91fd1072bf/d043ad4bd11373f06b5aa251a90f4bfbfaed0493.jpg" alt="">
+                            <p>《流浪地球》根据刘慈欣同名小说改编，影片故事设定在2075年，讲述了太阳即将毁灭，已经不适合人类生存，而面对绝境，人类将开启“流浪地球”计划，试图带着地球一起逃离太阳系，寻找人类新家园的故事</p></dd>
+                    </dl>
+                </div>
+            </li>
+            <li class="column">
+                <p class="l-head"><span class="serial">4</span>电影名称<i class="fa fa-angle-double-right"></i></p>
+                <div>
+                    <dl class="display">
+                        <dt>流浪地球</dt>
+                        <dd><img src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D500/sign=9997c339923df8dca23d8f91fd1072bf/d043ad4bd11373f06b5aa251a90f4bfbfaed0493.jpg" alt="">
+                            <p>《流浪地球》根据刘慈欣同名小说改编，影片故事设定在2075年，讲述了太阳即将毁灭，已经不适合人类生存，而面对绝境，人类将开启“流浪地球”计划，试图带着地球一起逃离太阳系，寻找人类新家园的故事</p></dd>
+                    </dl>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script>
+        $(function () {
+            $("li").hover(function () {
+                // this.getElementsByTagName("dl")[0].className="dis";
+                // $(".column .l-head i").css({
+                //     transform:"rotate(90deg)"
+                // });rotate(0deg)";
+                $(this).children(".l-head").children("i").css({
+                    transform:"rotate(90deg)"
+                });
+                $(this).children("div").children("dl").show(1000);
+                // $(this).addClass("displayBlk").show(1000);
+
+            },function () {
+                $(this).children(".l-head").children("i").css({
+                    transform:"rotate(0deg)"
+                });
+                // $(this).removeClass("displayBlk");
+                $(this).children("div").children("dl").hide(1000);
+            })
+        });
+    </script>
+</body>
+</html>

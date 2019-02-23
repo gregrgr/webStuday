@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <!--<script src="javascript/main.js"></script>-->
+</head>
+<body>
+    <table>
+        <thead id='head_tab_all'>
+            <tr>
+                <td>
+                    <input type="checkbox" id='tab_all'>
+                </td>
+                <td>
+                    逢逢类
+                </td>
+            </tr>
+        </thead>
+        <tbody id='body_tab_all'>
+            <tr>
+                <td>
+                    <input type="checkbox">
+                </td>
+                <td>
+                    逢逢1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox">
+                </td>
+                <td>
+                    逢逢2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox">
+                </td>
+                <td>
+                    逢逢3
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button id='btn'>反选</button>
+
+    <div id="div1">
+        <ul>
+            <li>逢逢1</li>
+            <li>逢逢2</li>
+            <li>逢逢3</li>
+            <li>逢逢4</li>
+        </ul>
+    </div>
+    <button id='btn1'>注册事件</button>
+    <img id="onMouse" src="./image/261574.gif"/>
+    <script>
+
+        //全选按钮的展示
+        var input_select = document.getElementById('tab_all');
+        input_select.onclick = function() {
+            var selt = document.getElementById('body_tab_all');
+            var selNum = selt.getElementsByTagName('input');
+            for(var i=0;i<selNum.length;i++){
+                // console.log(selNum[i]);
+                input = selNum[i];
+                if(input.type === 'checkbox')
+                {
+
+                    input.checked=this.checked;
+                }
+            }
+        }
+        //不全选状态更新
+        var oneInput = document.getElementById('body_tab_all');
+        var oneInputTag = oneInput.getElementsByTagName('input');
+        for(var i=0;i<oneInputTag.length;i++){
+            oneInputTag[i].onclick=function() {
+                var selectFlag = true;
+                for(var j=0;j<oneInputTag.length;j++){
+                    if(!oneInputTag[j].checked){
+                        selectFlag=false;
+                    }
+                }
+                if(selectFlag)
+                    input_select.checked=true;
+                else
+                    input_select.checked=false;
+            }
+        }
+
+        //反选
+
+        var btn = document.getElementById('btn');
+        btn.onclick = function(){
+            for(var i=0;i<oneInputTag.length;i++){
+                oneInputTag[i].checked=!oneInputTag[i].checked;
+                var selectFlag = true;
+                for(var j=0;j<oneInputTag.length;j++){
+                    if(!oneInputTag[j].checked){
+                        selectFlag=false;
+                    }
+                }
+                if(selectFlag)
+                    input_select.checked=true;
+                else
+                    input_select.checked=false;
+            }
+        }
+        
+        var box = document.getElementById('div1');
+        box = box.getElementsByTagName('ul')[0];
+        var ndList = box.children;
+        console.log(ndList);
+        for(var i=0;i<ndList.length;i++){
+            if(i%2===0){
+                ndList[i].style.backgroundColor = 'yello';
+            }else{
+                ndList[i].style.backgroundColor = 'green';
+            }
+        }
+        //注册事件,不被覆盖的方式
+        var btn1 = document.getElementById('btn1');
+        btn1.addEventListener('click',function(){
+            alert("hello1");
+        })
+        btn1.addEventListener('click',function(){
+            alert("hello2");
+        })
+
+        var onMouse = document.getElementById('onMouse');
+        document.onmousemove = function(e){
+            e = e || window.event;
+            onMouse.style.left = e.pageX + 'px';
+            onMouse.style.top = e.pageY + 'px';
+        }
+
+    </script>
+</body>
+</html>

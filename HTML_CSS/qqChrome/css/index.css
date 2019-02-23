@@ -1,0 +1,70 @@
+.bg-all {
+    min-width: 1000px;
+    width: 80%;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*background-color: pink;*/
+}
+.row1 .orb1,.row1 .orb2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    /*background-color: purple;*/
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -30px;
+}
+.row1 .orb2{
+    margin-top: 100px;
+    margin-left: -300px;
+}
+.row2 .orb1,.row2 .orb2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    top: 50%;
+    left: 50%;
+    margin-top: -280px;
+    margin-left: -500px;
+}
+.row2 .orb2{
+    margin-top: -280px;
+    margin-left: 200px;
+}
+.row1 div,.row2 div,.row3 div{
+    background:-webkit-linear-gradient(top, #fff, #dedede);
+    border-radius: 50%;
+}
+.row3 .orb1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: purple;
+    top: 50%;
+    left: 50%;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.row1 div {
+    animation: run 80s linear infinite;
+}
+.row2 div {
+    animation: run 60s linear infinite;
+}
+.row3 div {
+    animation: run 80s linear infinite;
+}
+@keyframes run {
+    from{
+        transform: translateX(0px) rotate(0deg);
+    }
+    to{
+        transform: translateX(-2000px) rotate(-3600deg);
+    }
+
+}

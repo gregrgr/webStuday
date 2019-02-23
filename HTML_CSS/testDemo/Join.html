@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="div1"></div>
+    <script>
+        var str = [];
+        str.push('<ul>');
+        str.push('<li>HEELLO</li>');
+        str.push('<li>HEELLO</li>');
+        str.push('</ul>');
+        var box = document.getElementsByTagName('body')[0];
+        console.log(box);
+        box.innerHTML = str.join('');
+        var a = document.createElement('a');
+        box.appendChild(a);
+        var tagA = box.getElementsByTagName('a')[0];
+        console.log(tagA);
+        tagA.href="";
+        tagA.innerText="你点我啊";
+        my$('div1').onclick=function () {
+            alert("jaja");
+        }
+    </script>
+</body>
+</html>

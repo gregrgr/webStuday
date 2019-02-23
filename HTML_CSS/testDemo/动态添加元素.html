@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <td>姓名</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>镂空</td>
+        </tr>
+        </tbody>
+    </table>
+    <button id="btn">添加</button>
+    <script>
+        var index = 0;
+        var tr = document.createElement('tr');
+        var td = document.createElement('td');
+        var but = document.getElementById('btn');
+        but.onclick=function () {
+            var tbody = document.getElementsByTagName('tbody')[0];
+            console.log(tbody);
+            td.innerText = '逢逢'+index;
+            index++;
+            tr.appendChild(td);
+            tbody.insertBefore(tr,tbody.lastChild);
+            // if(tbody.firstChild);{
+            //
+            // }
+        }
+    </script>
+</body>
+</html>
