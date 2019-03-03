@@ -1,8 +1,10 @@
-const mongoose = require("mongodb");
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
+const ObjectId = Schema.ObjectId;
 
 //Create Schema
-const UserSchema = new Schema({
+const UserSchema = mongoose.Schema({
+    author: ObjectId,
     name:{
         type:String,
         required:true
@@ -15,7 +17,11 @@ const UserSchema = new Schema({
         type:String,
         required:true
     },
-    avater:{
+    avatar:{
+        type:String,
+        required:true
+    },
+    identity:{
         type:String,
         required:true
     },
