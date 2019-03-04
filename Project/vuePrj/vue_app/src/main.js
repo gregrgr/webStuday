@@ -3,13 +3,15 @@ import App from './App.vue'
 //引入ElementUI
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+//引入axios
+import axios from "./http";
 
 import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI);
-
+Vue.prototype.$axios = axios;
 
 new Vue({
   router,
