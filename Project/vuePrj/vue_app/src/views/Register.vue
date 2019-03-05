@@ -10,7 +10,7 @@
           label-width="80px"
           class="registerUser1"
         >
-          <el-form-item label="姓名" prop="name">
+          <el-form-item label="用户名" prop="name">
             <el-input type="text" v-model="registerUser.name" autocomplete="off"></el-input>
           </el-form-item>
           <el-form-item label="邮箱" prop="email">
